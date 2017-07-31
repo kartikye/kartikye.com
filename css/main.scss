@@ -1,0 +1,118 @@
+//FontAwesome
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css';
+
+//Bootstrap
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css';
+
+//Normalize
+@import 'https://necolas.github.io/normalize.css/4.1.1/normalize.css';
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+section{
+	width: 100%;
+	min-height: 100%;
+}
+
+#first{
+	height: 100%;
+	padding: 20px;
+
+	background: -moz-linear-gradient(-45deg, #ffffff 28%, #2E3192 28%); /* FF3.6-15 */	
+	background: -webkit-linear-gradient(-45deg, #ffffff 28%,#2E3192 28%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #ffffff 28%,#2E3192 28%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#2E3192',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+	#bg-2{
+		width: 100%;
+		height: 100%;
+		padding: 20px;
+		background: #e1e1e1;
+		
+		#bg-3{
+			width: 100%;
+			height: 100%;
+			padding: 40px;
+
+			background: url('../img/dot.png');
+			background-repeat: repeat;
+
+
+			display: flex;
+			align-items: center;
+
+			.outer{
+
+				h1{
+					font-family: "Open Sans";
+					font-size: 15vw;
+					color: white;
+					padding: 0px;
+					margin: 0px;
+				}
+
+				.typed, .typed-cursor{
+					display: inline-block;
+					color: white;
+					font-size: 5vw;
+					margin-left: 1vw;
+					color: #5d2e92;
+				}
+
+				address {
+					display: inline-block;
+					margin: 0;
+					margin-top: 50px;
+					padding: 1vw;
+					color: #2E3192;
+					font-size: 3vw;
+					background-color: #e1e1e1;
+
+					label {
+						padding: 0;
+						margin: 0;
+					}
+
+					a{
+						color: #2E3192;
+						text-decoration: underline;
+						&:hover {
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#second {
+	background: #2E3192;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

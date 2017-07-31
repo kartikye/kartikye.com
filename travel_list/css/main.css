@@ -1,0 +1,39 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css";
+@import "https://fonts.googleapis.com/css?family=Amatic+SC|Shadows+Into+Light+Two&subset=latin-ext";
+@font-face {
+  font-family: "bodoni";
+  src: url("bodoni.ttf") format("truetype"); }
+body .row .col-sm-6 {
+  text-align: center; }
+  body .row .col-sm-6 h1 {
+    font-size: 60px;
+    font-family: bodoni;
+    color: white; }
+body .row .col-sm-10 {
+  padding: 50px 0 50px 0; }
+  body .row .col-sm-10 ul {
+    list-style: none;
+    font-size: 20px; }
+    body .row .col-sm-10 ul li {
+      font-family: "Shadows Into Light Two";
+      display: inline; }
+      body .row .col-sm-10 ul li span {
+        text-transform: uppercase;
+        font-weight: bold; }
+      body .row .col-sm-10 ul li:after {
+        content: "\A";
+        white-space: pre; }
+  body .row .col-sm-10 .done {
+    text-decoration: line-through;
+    color: #888; }
+body .header {
+  background: #9477b0; }
+body .footer {
+  font-family: bodoni;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #9477b0; }
+
+/*# sourceMappingURL=main.css.map */
